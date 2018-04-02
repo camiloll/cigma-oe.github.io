@@ -4,12 +4,12 @@ kramdown:
   input: GFM
   hard_wrap: false
   parse_block_html: true
-github: academicpages
-url: https://academicpages.github.io/group-meeting 
-name: Your Group Name
-description: An initial blog and site for your group meeting
-twitter: yourtwitterhandle
-calendar: https://yourcalendarurl
-mailinglist: https://yourmailinglisturl
-gravatar_url: 
+github: CIGMA-OE
+url: https://cigma-oe.github.io/
+name: CIGMA-OE
+description: Comite interno de ingeniería matematica
+twitter:
+calendar: https://agregar-el-calendario-aqui
+mailinglist: mailto:cigmaoe@gmail.com
+gravatar_url:
 disqus_username:
