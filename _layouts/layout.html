@@ -41,16 +41,25 @@
 
     <section class="meta">
       <a href="{{ site.github.owner_url }}" target="_blank"><img src="{{ site.url }}/images/github.png"/></a>
-      <a href="https://www.facebook.com/{{ site.facebook }}" target="_blank"><img src="{{ site.url }}/images/fb.png"></a>
       <br>
+      {% if site.twitter %}
+      <a href="https://facebook.com/{{ site.facebook }}" target="_blank"><img src="{{ site.url }}/images/fb.png"></a>
+      {% endif %}
+
+      {% if site.calendar %}
       <a href="{{ site.calendar }}"><img src="{{ site.url }}/images/calendar.png"/></a>
-      </section>
+      {% endif %}
+
+      {% if site.mailinglist %}
       <a href="{{ site.mailinglist }}"><img src="{{ site.url }}/images/email.png"/></a>
+      {% endif %}
+    </section>
+
     <section class="sections">
       <ul>
-        <li><a href="{{ site.url }}/">acerca</a></li>
-        <li><a href="{{ site.url }}/upcoming.html">eventos futuros</a></li>
-        <li><a href="{{ site.url }}/previous.html">evnetos anteriores</a></li>
+        <li><a href="{{ site.url }}/">about</a></li>
+        <li><a href="{{ site.url }}/upcoming.html">upcoming</a></li>
+        <li><a href="{{ site.url }}/previous.html">previous</a></li>
       </ul>
     </section>
   </section>
