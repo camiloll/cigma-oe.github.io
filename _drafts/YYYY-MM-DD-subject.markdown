@@ -14,7 +14,7 @@ tags: meeting <+ tags +>
 
 ## <+ speaker +>
 
-<+ speaker bio +> 
+<+ speaker bio +>
 
 ## <+topic +>
 
@@ -22,7 +22,7 @@ tags: meeting <+ tags +>
 
 Code examples can be found [here][code].
 
-## Lightning Talks 
+## Lightning Talks
 
 ## <+ person +> : <+ topic +>
 
