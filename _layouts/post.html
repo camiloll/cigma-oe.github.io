@@ -13,32 +13,60 @@ layout: layout
 
   {{ content }}
 
-  <section class="form">
+  <section class="container">
     <h3>Inscripción</h3>
-    <div class="col-1-2">
-      <form method="POST" action="https://formspree.io/shpotes3@gmail.com">
-        <input style="width: 75%" type="text" name="name" placeholder="Nombre" required=""><br>
-        <input style="width: 75%" type="number" name="id" placeholder="Código" required=""><br>
-        <input style="width: 75%" type="email" name="_replyto" placeholder="Correo Institucional" required="">
-        <button style="width: 35%" type="submit">Enviar</button>
-      </form>
-    </div>
+    <form method="POST" action="https://formspree.io/shpotes3@gmail.com">
+      <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Name" name="name" required="">
+        </div>
+      </div>
+      <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+          <label>Email Address</label>
+          <input type="email" class="form-control" placeholder="Email Address" name="_replyto" required="">
+        </div>
+      </div>
+      <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+          <label>Message</label>
+          <textarea rows="5" class="form-control" placeholder="Message" name="message" required=""></textarea>
+        </div>
+      </div>
+      <input type="text" name="_gotcha" style="display:none">
+      <br>
+      <div id="success"></div>
+      <div class="row">
+        <div class="form-group col-xs-12">
+          <button type="submit" class="btn btn-default" value="Send">Send</button>
+        </div>
+      </div>
+      <!--
+          <form method="POST" action="https://formspree.io/shpotes3@gmail.com">
+            <input style="width: 75%" type="text" name="name" placeholder="Nombre" required=""><br>
+            <input style="width: 75%" type="number" name="id" placeholder="Código" required=""><br>
+            <input style="width: 75%" type="email" name="_replyto" placeholder="Correo Institucional" required="">
+            <button style="width: 35%" type="submit">Enviar</button>
+          </form>
+          -->
   </section>
   
   <section class="shares">
     <h3>Share</h3>
     <!-- AddThis Button BEGIN -->
     <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-    <a class="addthis_button_twitter"></a>
-    <a class="addthis_button_google_plusone_share"></a>
-    <a class="addthis_button_delicious"></a>
-    <a class="addthis_button_reddit"></a>
-    <a class="addthis_button_mendeley"></a>
-    <a class="addthis_button_linkedin"></a>
-    <a class="addthis_button_facebook"></a>
-    <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+      <a class="addthis_button_twitter"></a>
+      <a class="addthis_button_google_plusone_share"></a>
+      <a class="addthis_button_delicious"></a>
+      <a class="addthis_button_reddit"></a>
+      <a class="addthis_button_mendeley"></a>
+      <a class="addthis_button_linkedin"></a>
+      <a class="addthis_button_facebook"></a>
+      <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
     </div>
     <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51a3e77b5577941a"></script>
     <!-- AddThis Button END -->
   </section>
+  </form>
 </section>
