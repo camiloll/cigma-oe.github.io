@@ -13,18 +13,20 @@ layout: layout
 
   {{ content }}
 
-  <section class="inscr">
+  <section class="form">
     <h3>Inscripción</h3>
-    <form method="POST" action="https://formspree.io/shpotes3@gmail.com">
-      <input name="name" placeholder="Nombre">
-      <input name="id" placeholder="Código">
-      <input type="email" name="email" placeholder="Correo">
-      <!-- TODO -->
-      <input type="hidden" name="_next" value="thanks.html" />
-      <input type="hidden" name="_subject" value="Nuevo inscrito {{ page.title }}!" />
-      <input type="hidden" name="_language" value="es" />
-      <button type="submit">Enviar</button>
-    </form>
+    <body>
+      <form method="POST" action="https://formspree.io/shpotes3@gmail.com">
+        Nombre: <input name="name" placeholder="tu nombre">
+        Código: <input name="id" placeholder="Código">
+        Correo institucional: <input type="email" name="email" placeholder="Correo">
+        <!-- TODO -->
+        <input type="hidden" name="_next" value="cigma-oe.github.io/thanks.html" />
+        <input type="hidden" name="_subject" value="Nuevo inscrito {{ page.title }}!" />
+        <input type="hidden" name="_language" value="es" />
+        <button type="submit">Enviar</button>
+      </form>
+    </body>
   </section>
   
   <section class="shares">
