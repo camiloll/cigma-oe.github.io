@@ -6,8 +6,6 @@ category: upcoming
 tags: curso <+ tags +>
 ---
 
-## Presenters
-
 ## Contenido
 ### Sección 1:
   * Características de Python.
