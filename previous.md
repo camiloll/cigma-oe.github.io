@@ -6,8 +6,9 @@ title: "Posts"
 
 <section class="content">
 
-Previous Topics
+Eventos pasados
 ===============
+Este es el lugar donde los eventos vienen a morir.
 
 <ul class="listing">
   {% assign past_posts = (site.posts | where: "category" , "past") %}
