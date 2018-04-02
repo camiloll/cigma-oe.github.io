@@ -1,16 +1,17 @@
 ---
 layout: layout
-title: "Upcoming Topics"
+title: "Eventos Futuros"
 ---
 
 <section class="content">
 
-Upcoming Topics
+Eventos Futuros
 ===============
 
-**Fall 2018**
+**2018-1**
 
-This is some material about upcoming meetings for your group.
+Aquí se encuentran algunos de los futuros eventos del comite interno de
+ingeniería matematica.
 
 <ul class="listing">
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
