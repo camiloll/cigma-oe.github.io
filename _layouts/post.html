@@ -14,93 +14,179 @@ layout: layout
   {{ content }}
   
   <div class="form-style-8">
-    <h2>Login to your account</h2>
+    <header>MINIMALISTIC FORM</header>
     <form>
-      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
       <style type="text/css">
-        .form-style-8{
-        font-family: 'Open Sans Condensed', arial, sans;
-        width: 500px;
-        padding: 30px;
-        background: #FFFFFF;
-        margin: 50px auto;
-        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-        -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
-        -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+      @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+      color: #aca49c;
+      font-size: 0.875em;
+  }
 
-        }
-        .form-style-8 h2{
-        background: #4D4D4D;
-        text-transform: uppercase;
-        font-family: 'Open Sans Condensed', sans-serif;
-        color: #797979;
-        font-size: 18px;
-        font-weight: 100;
-        padding: 20px;
-        margin: -30px -30px 30px -30px;
-        }
-        .form-style-8 input[type="text"],
-        .form-style-8 input[type="date"],
-        .form-style-8 input[type="datetime"],
-        .form-style-8 input[type="email"],
-        .form-style-8 input[type="number"],
-        .form-style-8 input[type="search"],
-        .form-style-8 input[type="time"],
-        .form-style-8 input[type="url"],
-        .form-style-8 input[type="password"],
-        .form-style-8 textarea,
-        .form-style-8 select 
-        {
-        box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        outline: none;
-        display: block;
-        width: 100%;
-        padding: 7px;
-        border: none;
-        border-bottom: 1px solid #ddd;
-        background: transparent;
-        margin-bottom: 10px;
-        font: 16px Arial, Helvetica, sans-serif;
-        height: 45px;
-        }
-        .form-style-8 textarea{
-        resize:none;
-        overflow: hidden;
-        }
-        .form-style-8 input[type="button"], 
-        .form-style-8 input[type="submit"]{
-        -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
-        -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
-        box-shadow: inset 0px 1px 0px 0px #45D6D6;
-        background-color: #2CBBBB;
-        border: 1px solid #27A0A0;
-        display: inline-block;
-        cursor: pointer;
-        color: #FFFFFF;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 14px;
-        padding: 8px 18px;
-        text-decoration: none;
-        text-transform: uppercase;
-        }
-        .form-style-8 input[type="button"]:hover, 
-        .form-style-8 input[type="submit"]:hover {
-        background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
-        background-color:#34CACA;
-        }
-      </style>
-      <script type="text/javascript">
-        //auto expand textarea
-        function adjust_textarea(h) {
-          h.style.height = "20px";
-          h.style.height = (h.scrollHeight)+"px";
-        }
-      </script>
+  input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+      color: #bbb5af;
+  }
 
+  input::-moz-placeholder, textarea::-moz-placeholder {
+      color: #aca49c;
+      font-size: 0.875em;
+  }
+
+  input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+      color: #bbb5af;
+  }
+
+  input::placeholder, textarea::placeholder {
+      color: #aca49c;
+      font-size: 0.875em;
+  }
+
+  input:focus::placeholder, textarea::focus:placeholder {
+      color: #bbb5af;
+  }
+
+  input::-ms-placeholder, textarea::-ms-placeholder {
+      color: #aca49c;
+      font-size: 0.875em;
+  }
+
+  input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+      color: #bbb5af;
+  }
+
+  /* on hover placeholder */
+
+  input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+      color: #e2dedb;
+      font-size: 0.875em;
+  }
+
+  input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+      color: #cbc6c1;
+  }
+
+  input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+      color: #e2dedb;
+      font-size: 0.875em;
+  }
+
+  input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+      color: #cbc6c1;
+  }
+
+  input:hover::placeholder, textarea:hover::placeholder {
+      color: #e2dedb;
+      font-size: 0.875em;
+  }
+
+  input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+      color: #cbc6c1;
+  }
+
+  input:hover::placeholder, textarea:hover::placeholder {
+      color: #e2dedb;
+      font-size: 0.875em;
+  }
+
+  input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+      color: #cbc6c1;
+  }
+
+  body {
+      font-family: 'Lato', sans-serif;
+      background: #e2dedb;
+      color: #b3aca7;
+  }
+
+  header {
+      position: relative;
+      margin: 100px 0 25px 0;
+      font-size: 2.3em;
+      text-align: center;
+      letter-spacing: 7px;
+  }
+
+  #form {
+      position: relative;
+      width: 500px;
+      margin: 50px auto 100px auto;
+  }
+
+  input {
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875em;
+      width: 470px;
+      height: 50px;
+      padding: 0px 15px 0px 15px;
+      
+      background: transparent;
+      outline: none;
+      color: #726659;
+      
+      border: solid 1px #b3aca7;
+      border-bottom: none;
+      
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+  }
+
+  input:hover {
+      background: #b3aca7;
+      color: #e2dedb;
+  }
+
+  textarea {
+      width: 470px;
+      max-width: 470px;
+      height: 110px;
+      max-height: 110px;
+      padding: 15px;
+      
+      background: transparent;
+      outline: none;
+      
+      color: #726659;
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875em;
+      
+      border: solid 1px #b3aca7;
+      
+      transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -ms-transition: all 0.3s ease-in-out;
+  }
+
+  textarea:hover {
+      background: #b3aca7;
+      color: #e2dedb;
+  }
+
+  #submit {
+      width: 502px;
+      
+      padding: 0;
+      margin: -5px 0px 0px 0px;
+      
+      font-family: 'Lato', sans-serif;
+      font-size: 0.875em;
+      color: #b3aca7;
+      
+      outline:none;
+      cursor: pointer;
+      
+      border: solid 1px #b3aca7;
+      border-top: none;
+  }
+
+  #submit:hover {
+      color: #e2dedb;
+  }
+  </style>
       <input type="text" name="name" placeholder="Nombre completo" />
-      <input name="id" placeholder="Código" />
+      <input type="text" name="id" placeholder="Código" />
       <input type="email" name="email" placeholder="Correo Institucional" />
       <input type="button" value="Enviar" />
     </form>
