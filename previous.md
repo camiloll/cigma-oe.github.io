@@ -6,8 +6,9 @@ title: "Posts"
 
 <section class="content">
 
-Eventos pasados
+Eventos Pasados
 ===============
+
 Este es el lugar donde los eventos vienen a morir.
 
 <ul class="listing">

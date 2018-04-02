@@ -5,13 +5,13 @@ title: "Eventos Futuros"
 
 <section class="content">
 
-Eventos Futuros
+Futuros Eventos
 ===============
-
-**2018-1**
 
 Aquí se encuentran algunos de los futuros eventos del comite interno de
 ingeniería matematica.
+
+**2018-1**
 
 <ul class="listing">
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
