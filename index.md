@@ -10,42 +10,20 @@ title: "About"
 
 <ul class="listing">
 <li>
-<span>Fall 2018</span><a href="{{ site.url }}/upcoming.html">Upcoming Topics</a>
+<span>Semestre 2018-1</span><a href="{{ site.url }}/upcoming.html">Futuros eventos</a>
 </li>
   {% assign upcoming = (site.posts | where: "category" , "upcoming") %}
   {% for post in upcoming reversed %}
     {% if forloop.first %}
     <li style="text-indent: 2em;">
-	<span>{{ post.date | date: "%B %e, %Y" }}</span> Next topic: <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-	</li>
+    <span>{{ post.date | date: "%B %e, %Y" }}</span> Siguiente evento: <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endif %}
   {% endfor %}
 <li>
-<span>2015-2016</span><a href="{{ site.url }}/previous.html">Previous Topics</a>
+<span>2017-2018</span><a href="{{ site.url }}/previous.html">Eventos previos</a>
 </li>
 </ul>
 
-
-## What:
-
-This is a description of your group.
-
-## Where:
-
-This is where your group's meetings are held.
-
-## When:
-
-This is when your group meets.
-
-## How:
-
-### Participation
-
-This is how you participate in your group.
-
-### Communications
-
-Links to various lists and chat services.
-
+### Alguna descripción Cool
 </section>
