@@ -5,6 +5,8 @@ comments: true
 category: upcoming
 tags: curso <+ tags +>
 ---
+TODO una breve introducción.
+
 ## ¿Que es este curso?
 TODO
 
