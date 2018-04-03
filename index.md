@@ -25,5 +25,5 @@ title: "About"
 </li>
 </ul>
 
-### Alguna descripción Cool
+## En construcción
 </section>
