@@ -8,12 +8,12 @@ tags: curso <+ tags +>
 Aprende de programación en el lenguaje de programación, Python con una
 introducción a sus características, funciones y tipos de datos.
 
-## ¿Que es este curso?
+## ¿Qué es este curso?
 Este es un curso de python orientado a personas con conocimientos fundamentales
 de programación, que desean tanto expandir sus conocimientos en el lenguaje como
 aprender un nuevo lenguaje de programación.
 
-## ¿Que **no** es este curso?
+## ¿Qué **no** es este curso?
   * Este no es un curso de nivelación o algún tipo de monitoria, si bien
   puede  ser un complemento interesante para ampliar o reforzar los
   contenidos vistos en alguna materia, el objetivo del curso **no** es
@@ -23,7 +23,7 @@ aprender un nuevo lenguaje de programación.
   programación, por lo cual, **no** es un curso introductorio a la
   programación.
 
-## ¿Por que python?
+## ¿Por qué python?
 Python es un lenguaje de programación fácil de usar, potente y versátil, por lo
 cual una excelente opción tanto para principiantes como para expertos. Adicional
 a esto, python posee importantes librerías en diferentes áreas de la computación
@@ -35,19 +35,18 @@ Junto a esto, según el articulo de Stack Overflow "[The Incredible Growth of Py
 se expone el gran crecimiento de python en los últimos años, en particular en
 los países con altos ingresos, tales como Estados unidos y Reino Unido.
 
-## ¿Donde?
+## ¿Dónde?
 El curso se realizará en Fabricato (27-101).
 
-## ¿Cuando?
+## ¿Cuándo?
 El curso se realizará el día 21 de abril de 2018 de 9:00 AM a 1:00 PM.
 
-## ¿Que necesito para el curso?
+## ¿Qué necesito para el curso?
 Es necesario que cada participante del curso lleve un computador portatil,
 dado el caso de que no posea un computador personal considere el uso del
 Aula Móvil.
 
 No es estrictamente necesario tener python instalado en el computador.
-
 
 ## ¿Cual será el contenido del curso?
 El curso contará con dos secciones, en las cuales se introducirán algunos
