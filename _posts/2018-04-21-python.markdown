@@ -5,10 +5,13 @@ comments: true
 category: upcoming
 tags: curso <+ tags +>
 ---
-TODO una breve introducción.
+Aprende de programación en el lenguaje de programacion, Python con una
+instrodución a sus características, funciones y tipos de datos.
 
 ## ¿Que es este curso?
-TODO
+Este es un curso de python orientado a personas con conocimientos fundamentales
+de programacion, que desean tanto expandir sus conocimientos en el lenguaje como
+aprender un nuevo lenguaje de programacion.
 
 ## ¿Que **no** es este curso?
   * Este no es un curso de nivelacion o algun tipo de monitoría, si bien
@@ -21,7 +24,16 @@ TODO
   programacion.
 
 ## ¿Por que python?
-TODO
+Python es un lenguaje de programacion facil de usar, potente y versátil, por lo
+cual una excelente opcion tanto para principiantes como para expertos. Adicional
+a esto, python posee importantes librerias en diferentes areas de la computacion
+tales como el desarrollo web, el analisis de datos, inteligencia artificial
+y la computacion cientifica, por lo cual, es un lenguaje ampliamente usado
+en estos sectores.
+
+Junto a esto, según el articulo de Stack Overflow "[The Incredible Growth of Python](https://stackoverflow.blog/2017/09/06/incredible-growth-python/)"
+se expone el gran crecimiento de python en los ultimos años, en particular en
+los paises con altos ingresos, tales como Estados unidos y Reino Unido.
 
 ## ¿Donde?
 El curso se realizará en Fabricato (27-101).
@@ -59,4 +71,3 @@ siguientes:
   * Manejadores de contexto.
   * Estructura de proyectos: módulos, paquetes, importación.
   * Conceptos básicos de programacion orientada a objetos.
-
