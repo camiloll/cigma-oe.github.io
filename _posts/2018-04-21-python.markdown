@@ -5,41 +5,41 @@ comments: true
 category: upcoming
 tags: curso <+ tags +>
 ---
-Aprende de programación en el lenguaje de programacion, Python con una
-instrodución a sus características, funciones y tipos de datos.
+Aprende de programación en el lenguaje de programación, Python con una
+introducción a sus características, funciones y tipos de datos.
 
 ## ¿Que es este curso?
 Este es un curso de python orientado a personas con conocimientos fundamentales
-de programacion, que desean tanto expandir sus conocimientos en el lenguaje como
-aprender un nuevo lenguaje de programacion.
+de programación, que desean tanto expandir sus conocimientos en el lenguaje como
+aprender un nuevo lenguaje de programación.
 
 ## ¿Que **no** es este curso?
-  * Este no es un curso de nivelacion o algun tipo de monitoría, si bien
+  * Este no es un curso de nivelación o algún tipo de monitoria, si bien
   puede  ser un complemento interesante para ampliar o reforzar los
   contenidos vistos en alguna materia, el objetivo del curso **no** es
-  ser una extension de algún curso.
+  ser una extensión de algún curso.
 
   * Este curso asume que los asistentes poseen nociones fundamentales de
-  programacion, por lo cual, **no** es un curso introductorio a la
-  programacion.
+  programación, por lo cual, **no** es un curso introductorio a la
+  programación.
 
 ## ¿Por que python?
-Python es un lenguaje de programacion facil de usar, potente y versátil, por lo
-cual una excelente opcion tanto para principiantes como para expertos. Adicional
-a esto, python posee importantes librerias en diferentes areas de la computacion
-tales como el desarrollo web, el analisis de datos, inteligencia artificial
-y la computacion cientifica, por lo cual, es un lenguaje ampliamente usado
+Python es un lenguaje de programación fácil de usar, potente y versátil, por lo
+cual una excelente opción tanto para principiantes como para expertos. Adicional
+a esto, python posee importantes librerías en diferentes áreas de la computación
+tales como el desarrollo web, el análisis de datos, inteligencia artificial
+y la computación científica, por lo cual, es un lenguaje ampliamente usado
 en estos sectores.
 
 Junto a esto, según el articulo de Stack Overflow "[The Incredible Growth of Python](https://stackoverflow.blog/2017/09/06/incredible-growth-python/)"
-se expone el gran crecimiento de python en los ultimos años, en particular en
-los paises con altos ingresos, tales como Estados unidos y Reino Unido.
+se expone el gran crecimiento de python en los últimos años, en particular en
+los países con altos ingresos, tales como Estados unidos y Reino Unido.
 
 ## ¿Donde?
 El curso se realizará en Fabricato (27-101).
 
 ## ¿Cuando?
-El curso se realizará el dia 21 de abril de 2018 de 9:00 AM a 1:00 PM.
+El curso se realizará el día 21 de abril de 2018 de 9:00 AM a 1:00 PM.
 
 ## ¿Que necesito para el curso?
 Es necesario que cada participante del curso lleve un computador portatil,
@@ -50,8 +50,8 @@ No es estrictamente necesario tener python instalado en el computador.
 
 
 ## ¿Cual será el contenido del curso?
-El curso contará con dos secciones, en las cuales se introduciran algunos
-conceptos basicos de la programacion en python, estas secciones serán las
+El curso contará con dos secciones, en las cuales se introducirán algunos
+conceptos básicos de la programación en python, estas secciones serán las
 siguientes:
 ### Sección 1:
   * Características de Python.
@@ -64,7 +64,7 @@ siguientes:
   * Estructuras de control: if, for, while. Estructuras por comprensión.
 
 ### Sección 2:
-  * Funciones: definición, argumentos posicionales y nominales.
+  * Funciones: definición, argumentos posiciónales y nominales.
   * Generadores. Funciones incorporadas: zip, range, enumerate, etc.
   * Manejo de I/O: lectura y escritura de archivos.
   * Manejo de excepciones.
