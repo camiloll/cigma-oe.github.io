@@ -5,7 +5,7 @@ comments: true
 category: upcoming
 tags: curso <+ tags +>
 ---
-Aprende de programación en el lenguaje de programación, Python con una
+Aprende de programación en el lenguaje de programación Python, con una
 introducción a sus características, funciones y tipos de datos.
 
 ## ¿Qué es este curso?
