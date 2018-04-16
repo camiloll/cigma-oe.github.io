@@ -1,0 +1,18 @@
+---
+layout: post
+title: SCI-TALKS
+comments: true
+category: upcoming
+tags: curso <+ tags +>
+---
+### ¿Te produce curiosidad la ciencia?
+
+## ¿Qué es Sci--Talks
+Es un espacio en el cual profesores y alumnos pueden transmitir conocimientos
+por medio del debate de temas cientificiso de la actualidad, formao de charlas
+divulgativas cortas, tipo TED.
+
+## ¿Dónde?
+En el Ágora.
+
+## Participantes:
