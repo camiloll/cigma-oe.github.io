@@ -42,13 +42,13 @@ El curso se realizará en Fabricato (27-101).
 El curso se realizará el día 21 de abril de 2018 de 9:00 AM a 1:00 PM.
 
 ## ¿Qué necesito para el curso?
-Es necesario que cada participante del curso lleve un computador portatil,
+Es necesario que cada participante del curso lleve un computador portátil,
 dado el caso de que no posea un computador personal considere el uso del
 Aula Móvil.
 
 No es estrictamente necesario tener python instalado en el computador.
 
-## ¿Cual será el contenido del curso?
+## ¿Cuál será el contenido del curso?
 El curso contará con dos secciones, en las cuales se introducirán algunos
 conceptos básicos de la programación en python, estas secciones serán las
 siguientes:

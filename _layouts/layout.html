@@ -12,6 +12,9 @@
   <meta name="author" content="{{ site.name }}" />
   <meta name="description" content="{{ site.description }}" />
 
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="icon" type="image/png" href="apple-touch-icon.png" />
+  
   <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/atom.xml" />
 
   <link rel="stylesheet" href="{{ site.url }}/css/base.css" type="text/css" media="screen, projection" />
@@ -33,14 +36,22 @@
     </a>
     {% endif %}
 
+    {% if site.gravatar_url %}
     <section class="name">
       <a href="{{ site.url }}/">
         <span id="lname">{{ site.name }}</span>
       </a>
     </section>
+    {% endif %}
+
+    <section class="logo-cigma">
+        <a href="{{ site.url }}/">
+          <img src="{{ site.url }}/images/logo.jpg" height="75" width="75" class="avatar" />
+        </a>
+      </section>
 
     <section class="meta">
-      <a href="{{ site.github.owner_url }}" target="_blank"><img src="{{ site.url }}/images/github.png"/></a>
+      <a href="https://instagram.com/cigmaoe" target="_blank"><img src="{{ site.url }}/images/ig.png"/></a>
       <a href="https://facebook.com/{{ site.facebook }}" target="_blank"><img src="{{ site.url }}/images/fb.png"></a>
       <br>      
       {% if site.calendar %}

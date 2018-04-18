@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:America/Bogota
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Bogota
+X-LIC-LOCATION:America/Bogota
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0500
+TZNAME:COT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20180418T052544Z
+UID:20180418T052544Z-1222340082@marudot.com
+DTSTART;TZID="America/Bogota":20180421T090000
+DTEND;TZID="America/Bogota":20180421T130000
+SUMMARY:Curso introductorio de Python
+URL:https%3A%2F%2Fcigma-oe.github.io%2Fupcoming%2F2018%2F04%2F21%2Fpython.html
+DESCRIPTION:Aprende de programación en el lenguaje de programación Python\, con una introducción a sus características\, funciones y tipos de datos.
+LOCATION:Universidad EAFIT (27-101)
+END:VEVENT
+END:VCALENDAR
